@@ -1,0 +1,709 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:1px; cursor:pointer}
+.w3-half img:hover{opacity:1}
+video{border: 2px solid #ECECEC;
+box-sizing: border-box;  box-shadow:  24px -24px 67px #f54f4a,
+             -2px 2px 67px #f54f4a;}
+
+
+           #mySidebar {
+              z-index:3;width:300px;
+              font-weight:bold;
+             }
+              
+             #services{
+              margin-top:10;
+             }
+             #preview{
+              margin-top: 90px;
+             }
+             #text{
+              position:absolute;top:170px;margin-left:10px;
+             }
+             #myOverlay{
+              cursor:pointer;
+             }
+             #share-top{
+              margin-left:20px;
+             }
+             #showcase{
+              margin-left:10px;
+             }
+             .w3-round{
+              width:50px;border:5px solid red;
+             }
+
+             #myInput {
+             /* background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+              background-position: 10px 12px; /* Position the search icon */
+              background-repeat: no-repeat; /* Do not repeat the icon image */
+              width: 100%; /* Full-width */
+              font-size: 16px; /* Increase font-size */
+              padding: 12px 20px 12px 40px; /* Add some padding */
+              border: 1px solid #ddd; /* Add a grey border */
+              margin-bottom: 12px; /* Add some space below the input */
+            }
+            
+            #myTable {
+              border-collapse: collapse; /* Collapse borders */
+              width: 100%; /* Full-width */
+              border: 1px solid #ddd; /* Add a grey border */
+              font-size: 18px; /* Increase font-size */
+            }
+            
+            #myTable th, #myTable td {
+              text-align: left; /* Left-align text */
+              padding: 12px; /* Add padding */
+            }
+            
+            #myTable tr {
+              /* Add a bottom border to all table rows */
+              border-bottom: 1px solid #ddd;
+            }
+            
+            #myTable tr.header, #myTable tr:hover {
+              /* Add a grey background color to the table header and on hover */
+              background-color: #f1f1f1;
+            }
+
+            
+             
+            .fa-anchor,.fa-coffee {font-size:900px}
+
+
+           #mySidebar  .active  {
+              background-color: #ffffff;
+              color: rgb(0, 0, 0);
+            }
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #000000;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+ 
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+i{
+  font-size: 1px;
+  padding: 12px;
+}
+.w3-sidebar {
+  overflow-y: hidden;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+#foorm {
+  height: 420px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+   
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+}
+
+form * {
+  font-family: 'Poppins', sans-serif;
+  color: #7f7777;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+label {
+  color: #575252
+}
+input {
+  background-color:#f7f7f7
+}
+#sub {
+margin-top: 30px;
+width: 100%;
+background-color: #000000;
+color: #ffffff;
+padding: 10px 0;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+border-radius: 30px;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+#sub:hover {
+background-color: #f54f4a;
+color: #ffffff;
+}
+
+
+
+ #myInput{
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 300;
+}
+#in {
+  display: block;
+  height: 50px;
+  width: 700px;
+  background-color: rgba(17, 17, 17, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#in:hover {
+  background-color: #000000;
+  color: #ffffff;
+  }
+.flip-card {
+  perspective: 1000px;
+  width: 275px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 275px;
+  height: 380px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+}
+
+.flip-card-back {
+  background-color: #555;
+  transform: rotateY(180deg);
+}
+
+#p{
+  height: 50px;
+  width: 460px;
+}
+#contact{
+  margin-top:20px;
+}
+pre {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+}
+
+   
+
+ 
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ 
+
+#hometop{
+	background: linear-gradient(-45deg, #f8683d, #ef508d, #ec9441, #e8fa27);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 90vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background:transparent;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+  border-color: transparent;
+}
+.carousel .card .img {
+  background: #f54f4a;
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+}
+.card .img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.36rem;
+  margin: 45px 0 5px;
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+ 
+
+
+
+#tophome {
+  position:  absolute;
+  width: 100%;
+  line-height: 60px;
+  
+}
+#tophome a.active {
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+#tophome a:hover {
+  border-bottom: 4px solid #ffffff;
+}
+a:hover{
+  color: #bbb;
+}
+#tophome ul {
+  line-height: 60px;
+  list-style: none;
+  background: transparent;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+#tophome.black ul {
+  background: #000000;
+}
+
+#tophome ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+#tophome ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+      
+  }
+
+  #tophome ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  #tophome.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  #tophome ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+.contentt {
+  position: absolute;
+}
+
+.contentt  h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.contentt h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+.contentt h2:nth-child(2) {
+  color:  #040404;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+
+
+
+
+
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #6a64f1;
+  color: white;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+
+.formbold-file-input input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.formbold-file-input label {
+  position: relative;
+  border: 1px dashed #a8a8a8;
+  border-radius: 6px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  text-align: center;
+}
+.formbold-drop-file {
+  display: block;
+  font-weight: 600;
+  color: #888888;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.formbold-or {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  display: block;
+  margin-bottom: 8px;
+}
+.formbold-browse {
+  font-weight: 500;
+  font-size: 16px;
+  color: #878787;
+  display: inline-block;
+  padding: 8px 28px;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+}
+ 
+
+.formbold-file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formbold-file-item button {
+  color: #a8a8a8;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+ 
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+
+
+
+
